@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.banner
+{
+    background-color: #e1ede0;
+}
+
+h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+table
+{
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+table thead
+{
+    background-color: #cde0cd;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table td
+{
+    border: 1px solid;
+}

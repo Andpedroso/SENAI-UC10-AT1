@@ -1,0 +1,15 @@
+<div class="banner">
+    <h1>Produtos</h1>
+    <table *ngIf='responseProdutos' >
+        <thead>
+            <td>Nome</td>
+            <td>Descrição</td>    
+        </thead>
+        <tbody>
+            <tr *ngFor='let produtos of responseProdutos'>
+                <td>{{produtos.titulo}}</td>
+                <td>{{produtos.descricao}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

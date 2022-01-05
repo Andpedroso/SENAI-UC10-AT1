@@ -1,0 +1,43 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Metroid Dread",
+      "descricao": "O último game da saga Metroid desenvolvido para Nintendo Switch."
+    },
+    {
+      "titulo": "Metal Gear Solid V: The Phantom Pain",
+      "descricao": "O último game da saga Metal Gear Estrelando Venon Snake depois da construção de Outer Heaven por Big Boss.",
+      "id": 2
+    },
+    {
+      "titulo": "Castlevania: Symphony of the Night",
+      "descricao": "O melhor jogo da história.",
+      "id": 3
+    }
+  ],
+  "user": [
+    {
+      "name": "André Moura Pedroso",
+      "email": "\tandmpedroso@outlook.com",
+      "id": 3
+    },
+    {
+      "name": "André Pedroso",
+      "email": "ankpedroso@gmail.com",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "email": "ankpedroso@gmail.com",
+      "password": "$2a$10$sQDfmhXzkm0dhj.ogqGTBuOWwQ1kS0qiOBEJi6/f2EycjG3f/BXKi",
+      "id": 1
+    },
+    {
+      "email": "andmpedroso@outlook.com",
+      "password": "$2a$10$D0dMNN3bikmNUb0bPluZJOdpxGda3zgcq9zkzRvSzbdC5VUHgZ5qq",
+      "id": 2
+    }
+  ]
+}

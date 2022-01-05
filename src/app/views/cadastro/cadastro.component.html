@@ -1,0 +1,44 @@
+<div class="pagina_geral" >
+    <h1>Criar Usuário para Contato</h1>
+    
+    <div class="formulario">
+        <label>Nome:
+            <input placeholder="Insira o nome" [(ngModel)]="request.name" >
+        </label>
+        <br>
+        <label>E-mail:
+            <input placeholder="Insira o E-mail" [(ngModel)]="request.email" >
+        </label>
+        <br>
+        <button (click)="save()" >Cadastrar</button>
+    </div>
+
+    <br><br>
+
+    <h1>Criar Usuário para Login</h1>
+    
+    <div class="formulario">
+        <label>E-mail:
+            <input type="email" placeholder="Insira o E-mail" [(ngModel)]="request2.email" >
+        </label>
+        <br>
+        <label>Senha:
+            <input type="password" placeholder="Insira a Senha" [(ngModel)]="request2.password" >
+        </label>
+        <br>
+        <button (click)="save2()" >Cadastrar</button>
+    </div>
+    
+    <br><br>
+    
+    <div  class="resposta" *ngIf="response" >
+        <h2>Criado com sucesso!</h2><br>
+        <label>Nome: {{response.name}}</label><br>
+        <label>E-mail: {{response.email}}</label><br>
+        <label>Id: {{response.id}}</label>
+    </div>
+
+    <div  class="resposta" *ngIf="response2" >
+        <h2>Criado com sucesso!</h2>
+    </div>
+</div>

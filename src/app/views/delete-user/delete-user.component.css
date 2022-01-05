@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.pagina_geral
+{
+    background-color: #e1ede0;
+    padding: 20px;
+}
+
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+button
+{
+    background-color: #63a355;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.botao
+{
+    text-align: center;
+}
